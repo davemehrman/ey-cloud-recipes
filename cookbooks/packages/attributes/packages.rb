@@ -6,6 +6,4 @@
 #
 # Examples below:
 
-default[:packages] = [{:name => "media-gfx/wkhtmltopdf", :version => "0.11.0_rc1"},
-                       # {:name => "dev-util/lockrun", :version => "2-r1"},
-                   		{:name => "dev-php/pecl-ssh2", :version => "0.11.3_r1"}]
+default[:packages] = [{:name => "dev-php/pecl-ssh2", :version => "0.11.3_r1"}]

@@ -3,7 +3,7 @@
 # Recipe:: default
 #
 
-require_recipe "packages"
+
 
 node[:packages].each do |package|
 
