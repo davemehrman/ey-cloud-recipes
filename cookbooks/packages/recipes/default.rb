@@ -3,6 +3,8 @@
 # Recipe:: default
 #
 
+require_recipe "packages"
+
 node[:packages].each do |package|
 
   ey_cloud_report "package-install" do
