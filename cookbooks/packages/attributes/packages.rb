@@ -7,5 +7,4 @@
 # Examples below:
 
 default[:packages] = [{:name => "media-gfx/wkhtmltopdf", :version => "0.10.0_rc2"},
-                       {:name => "dev-util/lockrun", :version => "2-r1"},
-                       {:name => "dev-php/pecl-ssh2", :version => "0.11.3_r1"}]
+                       {:name => "dev-php/pecl-ssh2", :version => "0.11.3_rc1"}]
